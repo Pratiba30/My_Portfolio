@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: #92ceeb;
+      color: #0f0f0f;
+      line-height: 1.5;
+    }
+
+    header {
+      background: #111;
+      color: #fff;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2rem;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #00aaff;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 100%;
+      margin-top: -50px;
+    }
+
+    
+
+    #about img {
+      width: 200px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      margin-bottom: 10px;
+      color: #00aaff;
+    }
+
+    .skills {
+        display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .education {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 10px;  
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #000000;
+      color: #fff;
+      margin-top: 50px;
+    }
+
+    button {
+      background: #dde1e4;
+      color: #1a1818;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 15px;
+    }
+
+    button:hover {
+      background: #0088cc;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1><b>Pratiba K</b></h1>
+    <p>Web Developer | Programmer | IT Student</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a href="#skills">Skills</a>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+   
+    <section id="about">
+        <div style="text-align:center;"><br>
+          <img src="C:\Users\ADMIN\OneDrive\Desktop\My Portfolio\photo.jpg" alt="Profile Photo">
+          <h2>About Me</h2>
+          <p>
+            Aspiring Web Developer with a background in BSc IT and hands-on experience in Salesforce projects. Skilled in HTML, CSS, JavaScript, Salesforce, and debugging, with a passion for creating efficient, user-friendly solutions. 
+            Eager to contribute to innovative, growth-oriented technology teams.
+          </p>
+        </div>
+      </section>
+    
+<!-- Education section -->
+
+      <section id="education">
+        <h2>Education</h2>
+        <div class="education">
+            <div class="card">
+                <p><h5>UG</h5>Hindusthan college of science and commerce <br>
+                    Bsc Information technology <br>
+                    2023-2026 <br>
+                    80.89% 
+                 </p><br>
+            </div>
+            <div class="card">
+                <p><h5>HSC</h5>
+                    Komarappa Sengunthar Higher Secondary School, M.Pidariyur <br>
+                    2023 <br>
+                    76.33%
+                </p><br>
+            </div>
+            <div class="card">
+                <p><h5>SSLC</h5>
+                    Komarappa Sengunthar Girls High School, Chennimalai <br>
+                    2021
+                </p>
+            </div>
+            
+        </div>
+      </section>
+
+      <!-- skills section -->
+
+      <section id="skills">
+        <div style="text-align:left;">
+        <h2>Skills</h2>
+            <div class="card">
+            
+                    <li>HTML</li>
+                      <li>CSS</li>
+                      <li>JavaScript</li>
+                      <LI>Salesforce CRM</LI>
+                      <li>Basics of C</li>
+                      <li>Basics of Java</li>
+                 
+            </div>
+        </div>
+      </section>
+    
+    
+      <!-- Projects Section -->
+      <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects">
+          <div class="card">
+            <h3>Garage Management System</h3>
+            <p>Built a Salesforce-based garage management system with customer & vehicle tracking, service requests, billing, and dashboards. 
+                Improved efficiency using workflows, validation rules, and automation tools.</p>
+                <button><a href="https://github.com/Pratiba30/Garage_Management_Sys.git">Check here...</a></button>
+          </div>
+          
+          <div class="card">
+            <h3>Portfolio Website</h3>
+            <p>This website to showcase my skills and projects.</p>
+          </div>
+        </div>
+      </section>
+    
+      <!-- Contact Section -->
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:pratibakathir@gmail.com">pratibakathir@gmail.com</a></p>
+        <p>LinkedIn: <a href="linkedin.com/in/pratiba-k-a02404306">linkedin.com/in/pratiba-k-a02404306</a></p>
+        <p>Mobile No: <a href="tel:+91 9994838445"></a>+91 9994838445</p>
+        <button onclick="showMessage()">Say Hello 👋</button>
+      </section>
+  
+  
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Pratiba K | All Rights Reserved</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    function showMessage() {
+      alert("Thanks for visiting my portfolio! 🚀");
+    }
+  </script>
+</body>
+</html>
